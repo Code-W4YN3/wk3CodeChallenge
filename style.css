@@ -1,0 +1,20 @@
+#header{
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  background-color: red;
+}
+#movieList{
+  position: absolute;
+  height: 90%;
+  width: 30%;
+  top: 10%;
+  background-color: yellow;
+}
+#moviePoster{
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  top: 10%;
+  left: 30%;
+}
