@@ -33,12 +33,16 @@ function postMovie(item){
   <p> Available Tickets: <span id=tracker>${AvailableTick}</span> </p>
   <button id="buy"> Buy Ticket </button>
   `
+  let span =document.getElementById("tracker")
   let button = document.getElementById("buy")
   button.addEventListener('click', tickets)
+
   function tickets(){
-    let span =document.getElementById("tracker")
     console.log(span.innerText)
     span.innerText = span.innerText-1
-    console.log(span.innerText)
   }
+  if(span.value= 0) {
+    button.innerText="Sold Out"
+    button.disabled = false
+}
 }
