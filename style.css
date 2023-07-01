@@ -4,11 +4,16 @@
   width: 100%;
   top: 0%;
   left: 0%;
-  background-color: red;
+  background-color: rgb(44, 43, 43);
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  font-size: larger;
+  z-index: 3;
 }
 #movieList{
   position: absolute;
-  height: 90%;
+  height: 625px;
   width: 20%;
   top: 15%;
   left: 0%;
@@ -16,8 +21,24 @@
 }
 #moviePoster{
   position: absolute;
-  height: 90%;
+  height: 625px;
   width: 80%;
   top: 15%;
   left: 20%;
+}
+#movieImage{
+  position: relative;
+  left: 0%;
+  top: 0%;
+  width: 417px;
+  height: 625px;
+  border-color: black;
+  border-style: solid;
+}
+#movieDetails{
+  position: absolute;
+  left: 425px;
+  top: 0%;
+  width: 380px;
+  height: 100%;
 }
